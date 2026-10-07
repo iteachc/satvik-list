@@ -40,6 +40,9 @@ body { background: var(--bg); color: var(--ink); font-family: var(--body); font-
 .hero h1 em { font-style: normal; color: var(--leaf); }
 .hero p { margin: 0; font-size: 19px; color: var(--muted); max-width: 60ch; }
 .hero p strong { color: var(--ink); font-weight: 700; }
+.maplink { justify-self: start; font-weight: 700; color: var(--leaf); text-decoration: none; }
+.maplink:hover { text-decoration: underline; text-underline-offset: 3px; }
+.maplink:focus-visible { outline: 3px solid var(--turmeric); outline-offset: 2px; border-radius: 4px; }
 
 .answers { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px 28px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding-block: 22px; }
 .answers h2 { font-family: var(--display); font-weight: 400; font-size: 21px; margin: 0 0 4px; }
@@ -94,6 +97,7 @@ footer { border-top: 1px solid var(--line); padding-top: 18px; color: var(--mute
     <span class="eyebrow">No onion · No garlic · No compromise</span>
     <h1>Good food doesn't need <em>onion and garlic.</em></h1>
     <p><strong>The Satvik List</strong> is 68 places in Delhi NCR, Bengaluru, Mumbai and Vadodara where you can eat satvik and still eat really well: kulchas, dosas, thalis, wood-fired pizza, kulfi.</p>
+    <a class="maplink" href="https://iteachc.github.io/satvik-map/">See them on a map →</a>
   </header>
 
   <div class="answers">
