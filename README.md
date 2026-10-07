@@ -6,6 +6,7 @@ Built the same way as the Delhi Outings page (`../Dad events`): JSON data + temp
 
 **Website (GitHub Pages):** https://iteachc.github.io/satvik-list/ — served from `docs/index.html` on `main`.
 **Claude page:** https://claude.ai/artifact/RUHuQEfMaef8mzs9NQsrCb (private until shared from its Share menu)
+**Map:** https://iteachc.github.io/satvik-map/ is a map of the same places, from the fork [iteachc/satvik-map](https://github.com/iteachc/satvik-map). The header links to it.
 
 `node build.js` writes both `dist/satvik-list.html` (for the Claude page) and `docs/index.html`
 (a standalone copy for GitHub Pages). Commit and push `docs/` to update the website.
