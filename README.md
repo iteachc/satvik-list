@@ -6,7 +6,7 @@
 
 A guide to places where you can eat well without onion and garlic (satvik food).
 Started from the Google Maps list "Satvik food (without onion and garlic)".
-Built the same way as the Delhi Outings page (`../Dad events`): JSON data + template + build script.
+Built the same way as the Delhi Outings page (`../Delhi Outings`): JSON data + template + build script.
 
 **Website (GitHub Pages):** https://iteachc.github.io/satvik-list/ forwards to the map's List view (`docs/index.html` is a redirect).
 **Claude page:** https://claude.ai/artifact/RUHuQEfMaef8mzs9NQsrCb (private until shared from its Share menu)
